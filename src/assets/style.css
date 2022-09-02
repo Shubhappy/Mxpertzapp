@@ -1,0 +1,253 @@
+body{
+  margin:0; 
+  padding: 0;
+} 
+
+.TopHeader{
+  margin-top: 0px;
+  display: flex;
+  height:23px;
+  border: 2px solid aqua;
+  width: 300px;
+  background-color:violet ;
+  
+
+}
+
+.logo_image{
+  /* display:flex; */
+  /* flex-direction:row;   */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: -20px;
+  height:65px;
+  width: 120px;  
+  transform: translate(530px,5px);
+}
+
+.title_text{
+   margin-left: 10px;
+   font-size: 25px;
+   color:black;
+   margin-top: 0px;
+   /* display: inline-flex; */
+   transform: translate(650px,-50px);
+}
+
+.analysis_div{
+  border: 5px solid black; 
+  height: 615px;
+  width: 98.5%;
+  transform: translate(0px,0px);
+  background-color: aliceblue;
+  
+ }
+
+.month_div{
+  display: inline-flex;
+  border: 2px solid black;
+  transform: translate(500px,-40px);
+  margin-top: 0px;
+  height: 30px;
+  
+}
+
+.month{
+  color: black;
+  /* align-items: center; */
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  transform: translate(0px,0px);
+  
+}
+
+.month_dropdown{
+    margin-top: 0px;
+    margin-left: 5px;
+    width: 150px;
+    font-weight: 550;
+    display: flex;
+    transform: translate(0px,10px);
+    height: 0px;
+}
+
+.link {
+  align-self: center;
+}
+
+
+.header_div{
+  display:flex;
+  max-width: 100%;
+  justify-content:center;
+  margin-top: -7px;
+  height: 60px;
+  background-color: coral;  
+  
+}
+
+.belowheader_div{
+  display:flex;
+  max-width: 100%;
+  justify-content: center;
+  margin-top: 65px;
+  height: 50px;
+  background-color: coral;  
+  
+}
+
+.services{
+  /* display: inline-block; */
+  margin-top: -30px;
+  margin-left: 3px;
+  width: 240px;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.radio_div{
+  border: 2px solid aqua;
+  width: 230px;
+  height: 100px;
+  margin: 5px;
+}
+
+.service_div_heading{
+  margin-top: 5px;
+  padding-left: 10px;
+  text-align: left;
+  font-size: medium;
+  font-weight: bold;
+}
+
+
+.Revenue_div{
+border: 2px solid aqua;
+  width: 230px;
+  height: 200px;
+  margin:5px;
+  
+}
+
+.pie_div{
+  height:50px
+}
+
+.indicator{
+  /* border: 0px solid aqua; */
+  width: 1325px;
+  height: 575px;
+  display: flex;
+  margin-top: -100px;
+  background-color: darkgoldenrod;
+  transform: translate(0px,0px);
+  flex-direction: row;
+
+  
+  
+}
+
+.guage{
+  height: 300px;
+  width: 650px; 
+  padding: -20px;  
+  border:1px solid black;
+  margin: 5px;
+  
+}
+
+.guage1{
+  height: 250px;
+  width: 420px; 
+  margin: 5px;
+  position: absolute;
+  /* /* bottom:-30px;  */
+  border:1px solid black;
+  transform: translate(3px,315px);
+}
+
+.guage2{
+  height: 250px;
+  width: 420px; 
+  margin: 5px;
+  position: absolute;
+  /* /* bottom:-30px;  */
+  border:1px solid black;
+  transform: translate(450px,315px);
+}
+
+.guage3{
+  height: 250px;
+  width: 420px; 
+  margin: 5px;
+  position: absolute;
+  /* /* bottom:-30px;  */
+  border:1px solid black;
+  transform: translate(897px,315px);
+}
+
+.bar_div{
+  border:2px solid black; 
+  margin: -25px;
+}
+
+.head_marquee{
+  font-weight: 1000;
+  background-color:lightgreen;
+  border:2px solid black;
+  margin-top: 0px;
+  transform: translate(0px,0px);
+  width: 100%;
+  
+}
+
+.pie_div{
+  /* border:2px solid black; */
+  display:flex; 
+  width:auto;
+  height:fit-content;
+}
+
+.pi{
+  
+  border:2px solid black;
+  width: 35%;
+  margin-top: 0px;
+  margin-right: 5px;
+  height: 450px;
+  transform: translate(0px,0px);
+}
+
+.bar{
+  
+  border:1px solid black;
+  /* width: 50%; */
+  margin-top: 0px;
+  margin-right: 1px;
+  margin-left: 9px;
+  height: 450px;
+  transform: translate(0px,0px);
+  display: flex;
+}
+
+.revenue_stack{
+  width:670px;
+}
+
+.bar_div{
+  display:flex;
+  width:max-content;
+  height:max-content;
+  transform: translate(0px,0px);
+}
+
+.bar_marquee{
+  font-weight: 1000;
+  background-color:lightgreen;
+  border:2px solid black;
+  margin-top: 0px;
+  transform: translate(0px,0px);
+  width: 100%; 
+}
